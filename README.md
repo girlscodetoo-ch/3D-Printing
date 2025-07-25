@@ -1,4 +1,4 @@
-# Magic Lamp
+# Dino Lamp
 Create your own awesome color-changing, 3D-printed lamp! Follow this simple tutorial to make the circuit, program the LEDs, 3D-print the lamp casing, and assemble a cool project!
 TODO: add final result picture
 
