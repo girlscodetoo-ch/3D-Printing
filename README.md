@@ -10,6 +10,28 @@ TODO: add final result picture
 - jumper cables
 - NeoPixel compatible LED strip, 5V. Note that if you want to use many LEDs, you may need to add a battery to power your circuit.
 - Arduino IDE with the FastLED library installed
+
+## Installation instructions
+
+Separate installation instructions can be found in the folder `installation_instructions`, both in English and German. These instructions refers to the setup needed to program the lamp, once it is assembled. Specifically, it shows how to install and use the Arduino IDE (https://www.arduino.cc/en/software/).
+
+## Code examples
+
+The folder `code_examples` contains examples of code that can be run on the Arduino Nano board of the lamp. They can be copied and used in the Arduino IDE. They can also be used as basis for more ambitious projects.
+
+The examples include (in the order introduced during our workshop):
+
+- `one_led`: sets the first LED of the strip to a red color. Adding a row with `leds[1] = CRGB::Blue;` will set the second LED to blue. More colors can be found at the end of this webpage: https://github.com/FastLED/FastLED/wiki/Pixel-reference.
+- `loop_leds`: sets all LEDs to a red color, using a "for-loop".
+- `button_combinations`: sets the LEDs according to different combinations each times the button is pressed.
+- `delay`: uses the command `delay` to turn on the LEDs one after the other.
+
+Not specifically discussed during the workshop of summer 2025 are:
+- `basic_button_controls`: sets the LEDs to a red color when the button is pressed (`LOW`).
+- `basic_on_off`: turns the lamp on and off when pressing the button.
+- `led_on_off`: turns the lamp on and off when pressing the button (other version).
+- `introduction`: tests the Arduino IDE by printing `hello world` on the Serial Monitor.
+- `button_template`: template to use the button, here for didactic purposes only (needs to be completed by the participants).
   
 ## Tutorial
 ### Step 1 - Creating the circuit
